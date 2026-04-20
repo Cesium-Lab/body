@@ -1,0 +1,524 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b5598221-7316-4188-9763-9214b4b4f689")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 129.54 71.12) (xy 149.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f63a8b-fd9d-47ba-a96d-070359dc9d3e")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549ce682-8400-4d8a-afd0-b20ce678a353")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fca2f5f-7f41-4c8c-bfd3-f63aa7e3d4ce")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709d49ba-0642-4e53-8e60-64903ea92529")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 149.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70baca4e-99fc-4094-bf6a-31d85e5fec33")
+	)
+	(wire
+		(pts
+			(xy 129.54 86.36) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77aa4646-b5bb-4a32-94ad-d8313c491c2f")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad92853f-88dc-4832-af46-30980c3a2334")
+	)
+	(wire
+		(pts
+			(xy 129.54 106.68) (xy 149.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11da616-1b27-4b61-a850-d998acdef113")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.82) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8687702-9d81-425d-b19d-a3dec377f2b6")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80c6214-5f2e-4f02-b0b6-7170dacedf54")
+	)
+	(sheet
+		(at 110.236 66.04)
+		(size 19.304 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39f77704-79bd-4981-93a6-952d2ca495e2")
+		(property "Sheetname" "STM32 F042"
+			(at 110.236 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 110.236 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANRX" input
+			(at 129.54 68.58 0)
+			(uuid "066462ac-cdb7-49ce-86bb-5a967e349e6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANTX" output
+			(at 129.54 71.12 0)
+			(uuid "842472c8-09d9-4fe2-bded-6238bb699c9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" input
+			(at 129.54 81.28 0)
+			(uuid "5a3e7b79-3c79-4f16-865d-01cfc9ca5f98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" output
+			(at 129.54 83.82 0)
+			(uuid "e5ffade1-c1bf-4512-98b7-9d10808143eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" output
+			(at 129.54 86.36 0)
+			(uuid "8234b6ce-246f-418c-b494-13c3352e1643")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 129.54 104.14 0)
+			(uuid "0999d54e-8b56-4d30-ad77-ab5f991ac731")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 129.54 106.68 0)
+			(uuid "087f40b2-eb78-4f56-9220-ee3a16db5bcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT1" input
+			(at 129.54 91.44 0)
+			(uuid "2c3cd78d-0c67-4736-881e-627b687c4c14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT2" input
+			(at 129.54 93.98 0)
+			(uuid "70b7b0e0-76c2-4ede-90ba-8e9c540545bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_CS" output
+			(at 129.54 88.9 0)
+			(uuid "8765dc29-46af-4a8a-8263-f3a3e1732cdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Beacon"
+				(path "/b5598221-7316-4188-9763-9214b4b4f689"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 61.214 70.358)
+		(size 44.196 18.796)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45a4cebe-20a5-4e7f-9f7e-125a3c6850c5")
+		(property "Sheetname" "Power"
+			(at 61.214 69.6464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 61.214 89.7386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Beacon"
+				(path "/b5598221-7316-4188-9763-9214b4b4f689"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 64.77)
+		(size 25.654 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d68182c-1d21-4f10-aa91-3976a64be3bf")
+		(property "Sheetname" "CAN"
+			(at 149.86 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 149.86 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 149.86 68.58 180)
+			(uuid "820083f7-e294-41be-aabc-416e7d03ab3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 149.86 71.12 180)
+			(uuid "b8591088-b731-48dd-9d29-1857464ea9b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Beacon"
+				(path "/b5598221-7316-4188-9763-9214b4b4f689"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 102.362)
+		(size 23.368 9.652)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca09a9ee-a560-4476-8bd5-26cd03ae898c")
+		(property "Sheetname" "BME280"
+			(at 149.86 101.6504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bme280.kicad_sch"
+			(at 149.86 112.5986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 149.86 104.14 180)
+			(uuid "67f4430a-6f5e-475f-aa7b-0ad9d27d8216")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 149.86 106.68 180)
+			(uuid "d2faa42b-7507-43ac-b0f0-6114a4b21c03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Beacon"
+				(path "/b5598221-7316-4188-9763-9214b4b4f689"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 80.264)
+		(size 23.876 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0268900-4d64-4a3d-8539-b0f32c6ef1c2")
+		(property "Sheetname" "ICM-42670-P"
+			(at 149.86 79.5524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "icm42670p.kicad_sch"
+			(at 149.86 96.0886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CS" input
+			(at 149.86 88.9 180)
+			(uuid "acc0e445-3ce9-4ffc-9755-7f5f8b7a17a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT1" output
+			(at 149.86 91.44 180)
+			(uuid "4d14c58b-8b12-4d29-baed-c4037eec2515")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT2" output
+			(at 149.86 93.98 180)
+			(uuid "b9507306-d586-42c7-b8dc-5ba90d5475de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 149.86 81.28 180)
+			(uuid "c232e8af-5654-4e84-b729-54998321cfd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 149.86 83.82 180)
+			(uuid "b0c2a5d5-f8e4-4298-95f4-e19c37ef0941")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 149.86 86.36 180)
+			(uuid "7fb43e8e-772d-4539-b724-4e6e7d433398")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Beacon"
+				(path "/b5598221-7316-4188-9763-9214b4b4f689"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

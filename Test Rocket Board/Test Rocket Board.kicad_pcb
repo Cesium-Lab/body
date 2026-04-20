@@ -23221,7 +23221,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "Test Board!\nRev 1"
+	(gr_text "Test Board!\nRevB"
 		(at 173 78 0)
 		(layer "F.SilkS")
 		(uuid "17481384-9349-43af-8be6-d6ca8eb327e6")
